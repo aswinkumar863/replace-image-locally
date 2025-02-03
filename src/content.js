@@ -58,6 +58,7 @@ function replaceImage(source) {
     return;
   }
   imageEl.src = source;
+  imageEl.removeAttribute("srcset");
 }
 
 // checks wheather the URL is valid
